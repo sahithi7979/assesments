@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+      const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+    function sumEvenNumbers(arr) {
+      let evenSum = 0;
+      for (let i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 === 0) {
+          evenSum += arr[i];
+        }
+      }
+      return evenSum;
+    }
+
+    const result = sumEvenNumbers(numbers);
+console.log(result);
+    </script>
+  </body>
+</html>
